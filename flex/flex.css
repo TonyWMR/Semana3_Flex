@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: Verdana, sans-serif;
+}
+
+
+main {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 5px;
+    margin: 10px;
+    flex-wrap: wrap;
+}
+div {
+    
+    border-radius: 12px;
+    margin-top: 20px;
+    
+    text-align: center;
+    padding: 20px;
+    box-shadow: 2px 16px 161px -3px rgba(189, 189, 189, 0.75);
+}
+img{
+    height: 200px;
+    object-fit: contain;
+    
+}
